@@ -1,0 +1,15 @@
+s1 = {"Red" ,"yellow", "orange" , "blue" }
+s2 = {"violet", "blue" , "purple"}
+print(s1.issubset(s2))
+print(s1.isdisjoint(s2))
+print(s1.intersection(s2))
+print(s1.issuperset(s2))
+print(s1.union(s2))
+s1.add("green")
+print(s1)
+s1.update(["black","white"])
+print(s1)
+s1.remove("yellow")
+print(s1)
+s1.discard("magenta")
+print(s1)

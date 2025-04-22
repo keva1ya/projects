@@ -1,0 +1,1 @@
+#wap to create 2 classes, a parent and a child, 4-5 fn in parent call in child, 1 private, 
