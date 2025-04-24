@@ -30,7 +30,7 @@ class blockgame:
         self.grid = self.make_grid()
         self.score = 0
         self.win = pygame.display.set_mode((width, height))
-        pygame.display.set_caption("Kevalya's Tetris ")
+        pygame.display.set_caption("Tetris")
 
     def make_grid(self):
         return [[black for _ in range(columns)] for _ in range(rows)]
@@ -110,7 +110,7 @@ class tetris(blockgame):
                 self.time += self.clock.get_rawtime()
                 self.clock.tick(60)
 
-                if self.time > 500:
+                if self.time > 100:
                     if self.is_valid(self.current, dy=1):
                         self.current.y += 1
                     else:
