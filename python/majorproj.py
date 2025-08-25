@@ -146,6 +146,6 @@ class tetris(blockgame):
             print("Something went wrong:", e)
         finally:
             pygame.quit()
-
+            
 t = tetris()
 t.start()
