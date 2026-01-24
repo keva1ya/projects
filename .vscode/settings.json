@@ -3,5 +3,6 @@
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
         "stdio.h": "c"
-    }
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }
