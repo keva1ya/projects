@@ -1,9 +1,20 @@
-public class classtemp{
+class Parent{
+    void display(){
+        System.out.println("luke i am your father");
+    }
+        
+}
+class Child extends Parent{
+    void display(){
+        super.display();
+        System.out.println("luke you are my child");
+        }
+}
+public class classtemp {
     public static void main(String[] args) {
-        String S1="JAVA";
-        String S2= "JAVA";
-        String S3= new String("Java");
-        S3=S3.concat("Programming");
-        System.out.println(S3.contains("Java"));
-    }    
+        Parent p=new Parent();
+        Child c= new Child();
+        c.display();
+    }
+
 }
